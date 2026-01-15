@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:stable
+    container_name: f41_nginx
+    ports:
+      - "8080:80"
+      - "8443:443"
+    volumes:
+      - ./site:/usr/share/nginx/html
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./certs:/etc/ssl:ro
+    restart: unless-stopped
+
+  sftp:
+    image: atmoz/sftp:latest
+    container_name: f41_sftp
+    ports:
+      - "2222:22"
+    volumes:
+      - ./site:/home/sftpuser/upload
+    command: sftpuser:password:1001
+    restart: unless-stopped
