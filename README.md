@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/V0UhzOJZ)
 # P4.1 — Segunda Parte (Evaluacion RA2) — Nginx en Docker
 
 Documento de entrega unico (obligatorio):
@@ -448,5 +449,5 @@ En DESPLIEGUE.md incluye un checklist con:
 
 - Sube todo el repo a tu GitHub.
 - Asegurate de que DESPLIEGUE.md incluye todo lo solicitado.
-- Comprueba que las evidencias estan en evidencias/ y enlazadas en DESPLIEGUE.md.
+- Comprueba que las evidencias están en evidencias/ y enlazadas en DESPLIEGUE.md.
 - Comparte el enlace del repo a tu instructor o en la plataforma correspondiente
