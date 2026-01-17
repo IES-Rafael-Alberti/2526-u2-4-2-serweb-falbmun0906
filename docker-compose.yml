@@ -1,16 +1,15 @@
 version: '3.8'
-
 services:
   nginx:
     image: nginx:stable
     container_name: f41_nginx
     ports:
       - "8080:80"
-      - "8443:443"
+      - "8443:443"  # si habilito HTTPS
     volumes:
-      - ./site:/usr/share/nginx/html
+      - ./site:/usr/share/nginx/html:ro
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
-      - ./certs:/etc/ssl:ro
+      - ./certs:/etc/nginx/certs:ro
     restart: unless-stopped
 
   sftp:

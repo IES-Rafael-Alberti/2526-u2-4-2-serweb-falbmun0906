@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Evidencia 8 - Persistencia SFTP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 2rem;
+    }
+    .card {
+      max-width: 600px;
+      margin: auto;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .ok {
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    code {
+      background: #eef1f4;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Evidencia 8 – Volumen Compartido</h1>
+    <p class="ok">✔ Archivo servido correctamente por Nginx</p>
+
+    <p>
+      Este archivo ha sido <strong>subido mediante SFTP (FileZilla)</strong>
+      al directorio:
+    </p>
+
+    <p><code>/home/sftpuser/upload</code></p>
+
+    <p>
+      y es accesible inmediatamente desde el navegador sin reiniciar
+      el contenedor Nginx, demostrando la persistencia del volumen compartido.
+    </p>
+
+    <p>
+      Fecha de prueba: <strong>11 / 01 / 2026</strong>
+    </p>
+  </div>
+</body>
+</html>

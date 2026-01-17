@@ -449,5 +449,5 @@ En DESPLIEGUE.md incluye un checklist con:
 
 - Sube todo el repo a tu GitHub.
 - Asegurate de que DESPLIEGUE.md incluye todo lo solicitado.
-- Comprueba que las evidencias estan en evidencias/ y enlazadas en DESPLIEGUE.md.
+- Comprueba que las evidencias están en evidencias/ y enlazadas en DESPLIEGUE.md.
 - Comparte el enlace del repo a tu instructor o en la plataforma correspondiente
